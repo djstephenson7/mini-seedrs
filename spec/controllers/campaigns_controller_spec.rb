@@ -30,7 +30,7 @@ RSpec.describe CampaignsController, type: :controller do
   # Campaign. As you add validations to Campaign, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) do
-    skip('Add a hash of attributes valid for your model')
+    { name: 'Some campaign', image: 'some image', percent_raised: 50, target_amount: 100, sector: 'Charity', country: 'UK', invest_multiple: 5 }
   end
 
   let(:invalid_attributes) do
