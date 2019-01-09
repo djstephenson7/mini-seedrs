@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
 #
@@ -11,5 +13,4 @@ Campaign.create(name: 'Some campaign',
                 target_amount: 100,
                 sector: 'Charity',
                 country: 'UK',
-                invest_multiple: 5
-              )
+                invest_multiple: 5)
