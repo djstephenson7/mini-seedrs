@@ -5,7 +5,7 @@ class CampaignsController < ApplicationController
 
   # GET /campaigns
   def index
-    @campaigns = Campaign.all
+    @campaigns = Campaign.all.paginate(page: params[:page], per_page: 5)
   end
 
   # GET /campaigns/1
