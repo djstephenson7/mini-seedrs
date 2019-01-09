@@ -21,19 +21,13 @@
       <tr>
         <td><%= campaign.name %></td>
         <td><%= campaign.image %></td>
-        <td><%= campaign.percent_raised %></td>
+        <td><%= campaign.percent_raised %>%</td>
         <td><%= campaign.target_amount %></td>
         <td><%= campaign.sector %></td>
         <td><%= campaign.country %></td>
         <td><%= campaign.invest_multiple %></td>
-        <td><%= link_to 'Show', campaign %></td>
-        <td><%= link_to 'Edit', edit_campaign_path(campaign) %></td>
-        <td><%= link_to 'Destroy', campaign, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Campaign Investment Page', campaign %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
-
-<br>
-
-<%= link_to 'New Campaign', new_campaign_path %>

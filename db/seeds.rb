@@ -7,6 +7,158 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Campaign.create(name: 'The GoCarShare Team',
+                image: 'Image',
+                percent_raised: 20,
+                target_amount: 2000,
+                sector: 'Automotive',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
+Campaign.create(name: 'Some campaign',
+                image: 'some image',
+                percent_raised: 50,
+                target_amount: 100,
+                sector: 'Charity',
+                country: 'UK',
+                invest_multiple: 5)
+
 Campaign.create(name: 'Some campaign',
                 image: 'some image',
                 percent_raised: 50,
