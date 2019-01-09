@@ -38,6 +38,7 @@ group :development, :test do
   gem 'rubocop'
   gem 'simplecov'
   gem 'simplecov-console'
+  gem 'database_cleaner'
 end
 
 group :development do
