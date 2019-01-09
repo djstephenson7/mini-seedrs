@@ -8,6 +8,18 @@
         null,
         1,
         1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/rails_helper.rb": [
@@ -285,6 +297,7 @@
         1,
         1,
         1,
+        1,
         null,
         null,
         null,
@@ -304,6 +317,6 @@
         null
       ]
     },
-    "timestamp": 1547030742
+    "timestamp": 1547033610
   }
 }
