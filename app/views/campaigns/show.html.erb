@@ -1,4 +1,39 @@
 <p id="notice"><%= notice %></p>
 
+<p>
+  <strong>Name:</strong>
+  <%= @campaign.name %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @campaign.image %>
+</p>
+
+<p>
+  <strong>Percent raised:</strong>
+  <%= @campaign.percent_raised %>
+</p>
+
+<p>
+  <strong>Target amount:</strong>
+  <%= @campaign.target_amount %>
+</p>
+
+<p>
+  <strong>Sector:</strong>
+  <%= @campaign.sector %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @campaign.country %>
+</p>
+
+<p>
+  <strong>Invest multiple:</strong>
+  <%= @campaign.invest_multiple %>
+</p>
+
 <%= link_to 'Edit', edit_campaign_path(@campaign) %> |
 <%= link_to 'Back', campaigns_path %>

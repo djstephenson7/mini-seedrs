@@ -5,6 +5,13 @@
 <table>
   <thead>
     <tr>
+      <th>Name</th>
+      <th>Image</th>
+      <th>Percent raised</th>
+      <th>Target amount</th>
+      <th>Sector</th>
+      <th>Country</th>
+      <th>Invest multiple</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -12,6 +19,13 @@
   <tbody>
     <% @campaigns.each do |campaign| %>
       <tr>
+        <td><%= campaign.name %></td>
+        <td><%= campaign.image %></td>
+        <td><%= campaign.percent_raised %></td>
+        <td><%= campaign.target_amount %></td>
+        <td><%= campaign.sector %></td>
+        <td><%= campaign.country %></td>
+        <td><%= campaign.invest_multiple %></td>
         <td><%= link_to 'Show', campaign %></td>
         <td><%= link_to 'Edit', edit_campaign_path(campaign) %></td>
         <td><%= link_to 'Destroy', campaign, method: :delete, data: { confirm: 'Are you sure?' } %></td>

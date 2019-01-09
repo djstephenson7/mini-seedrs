@@ -1,18 +1,22 @@
-# frozen_string_literal: true
-
 class CampaignsController < ApplicationController
-  before_action :set_campaign, only: %i[show update destroy]
+  before_action :set_campaign, only: [:show, :edit, :update, :destroy]
 
   # GET /campaigns
   def index
     @campaigns = Campaign.all
-
-    render json: @campaigns
   end
 
   # GET /campaigns/1
   def show
-    render json: @campaign
+  end
+
+  # GET /campaigns/new
+  def new
+    @campaign = Campaign.new
+  end
+
+  # GET /campaigns/1/edit
+  def edit
   end
 
   # POST /campaigns
@@ -20,35 +24,35 @@ class CampaignsController < ApplicationController
     @campaign = Campaign.new(campaign_params)
 
     if @campaign.save
-      render json: @campaign, status: :created, location: campaign_url(@campaign)
+      redirect_to @campaign, notice: 'Campaign was successfully created.'
     else
-      render json: @campaign.errors, status: :unprocessable_entity
+      render :new
     end
   end
 
   # PATCH/PUT /campaigns/1
   def update
     if @campaign.update(campaign_params)
-      render json: @campaign
+      redirect_to @campaign, notice: 'Campaign was successfully updated.'
     else
-      render json: @campaign.errors, status: :unprocessable_entity
+      render :edit
     end
   end
 
   # DELETE /campaigns/1
   def destroy
     @campaign.destroy
+    redirect_to campaigns_url, notice: 'Campaign was successfully destroyed.'
   end
 
   private
+    # Use callbacks to share common setup or constraints between actions.
+    def set_campaign
+      @campaign = Campaign.find(params[:id])
+    end
 
-  # Use callbacks to share common setup or constraints between actions.
-  def set_campaign
-    @campaign = Campaign.find(params[:id])
-  end
-
-  # Only allow a trusted parameter "white list" through.
-  def campaign_params
-    params.require(:campaign).permit(:name, :image, :percent_raised, :target_amount, :sector, :country, :invest_multiple)
-  end
+    # Only allow a trusted parameter "white list" through.
+    def campaign_params
+      params.require(:campaign).permit(:name, :image, :percent_raised, :target_amount, :sector, :country, :invest_multiple)
+    end
 end
