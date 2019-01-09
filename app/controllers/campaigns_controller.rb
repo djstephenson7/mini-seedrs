@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Api::V1::CampaignsController < ApplicationController
+class CampaignsController < ApplicationController
   before_action :set_campaign, only: %i[show update destroy]
 
   # GET /campaigns
@@ -20,7 +20,7 @@ class Api::V1::CampaignsController < ApplicationController
     @campaign = Campaign.new(campaign_params)
 
     if @campaign.save
-      render json: @campaign, status: :created, location: api_v1_campaign_url(@campaign)
+      render json: @campaign, status: :created, location: campaign_url(@campaign)
     else
       render json: @campaign.errors, status: :unprocessable_entity
     end

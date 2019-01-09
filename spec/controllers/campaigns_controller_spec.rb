@@ -25,7 +25,7 @@ require 'rails_helper'
 # removed from Rails core in Rails 5, but can be added back in via the
 # `rails-controller-testing` gem.
 
-RSpec.describe Api::V1::CampaignsController, type: :controller do
+RSpec.describe CampaignsController, type: :controller do
   # This should return the minimal set of attributes required to create a valid
   # Campaign. As you add validations to Campaign, be sure to
   # adjust the attributes here as well.
@@ -66,7 +66,7 @@ RSpec.describe Api::V1::CampaignsController, type: :controller do
         post :create, params: { campaign: valid_attributes }, session: valid_session
         expect(response).to have_http_status(:created)
         expect(response.content_type).to eq('application/json')
-        expect(response.location).to eq(api_v1_campaign_url(Campaign.last))
+        expect(response.location).to eq(campaign_url(Campaign.last))
       end
     end
   end

@@ -98,8 +98,6 @@
         null,
         null,
         null,
-        null,
-        null,
         1,
         1,
         1,
@@ -199,7 +197,7 @@
         1,
         1,
         1,
-        null,
+        1,
         null,
         null,
         null,
@@ -210,8 +208,6 @@
         1,
         null,
         1,
-        null,
-        null,
         null,
         null,
         null,
@@ -293,6 +289,24 @@
         null,
         null
       ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/config/initializers/assets.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/config/initializers/backtrace_silencers.rb": [
         null,
         null,
@@ -304,7 +318,16 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/config/initializers/cors.rb": [
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/config/initializers/content_security_policy.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null,
         null,
@@ -323,6 +346,15 @@
         null,
         null,
         null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/config/initializers/cookies_serializer.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
       ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/config/initializers/filter_parameter_logging.rb": [
         null,
@@ -370,7 +402,7 @@
         null,
         null,
         1,
-        2,
+        1,
         null,
         null,
         null,
@@ -384,14 +416,22 @@
         1,
         1,
         1,
-        1,
-        1,
-        null,
-        null,
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/controllers/api/v1/campaigns_controller.rb": [
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/helpers/application_helper.rb": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/helpers/campaigns_helper.rb": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/controllers/campaigns_controller.rb": [
         null,
         null,
         1,
@@ -545,8 +585,77 @@
         null,
         null,
         null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/views/campaigns/edit.html.erb_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/views/campaigns/index.html.erb_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/views/campaigns/new.html.erb_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/views/campaigns/show.html.erb_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1547038663
+    "timestamp": 1547049992
   }
 }
