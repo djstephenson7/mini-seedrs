@@ -36,6 +36,8 @@ group :development, :test do
   gem 'capybara'
   gem 'rspec-rails'
   gem 'rubocop'
+  gem 'simplecov'
+  gem 'simplecov-console'
 end
 
 group :development do
