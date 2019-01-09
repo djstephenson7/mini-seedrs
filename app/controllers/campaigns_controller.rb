@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class CampaignsController < ApplicationController
-  before_action :set_campaign, only: [:show, :edit, :update, :destroy]
+  before_action :set_campaign, only: %i[show edit update destroy]
 
   # GET /campaigns
   def index
@@ -7,8 +9,7 @@ class CampaignsController < ApplicationController
   end
 
   # GET /campaigns/1
-  def show
-  end
+  def show; end
 
   # GET /campaigns/new
   def new
@@ -16,8 +17,7 @@ class CampaignsController < ApplicationController
   end
 
   # GET /campaigns/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /campaigns
   def create
@@ -46,13 +46,14 @@ class CampaignsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_campaign
-      @campaign = Campaign.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def campaign_params
-      params.require(:campaign).permit(:name, :image, :percent_raised, :target_amount, :sector, :country, :invest_multiple)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_campaign
+    @campaign = Campaign.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def campaign_params
+    params.require(:campaign).permit(:name, :image, :percent_raised, :target_amount, :sector, :country, :invest_multiple)
+  end
 end
