@@ -8,6 +8,7 @@
       <th>Name</th>
       <th>Image</th>
       <th>Percent raised</th>
+      <th>Amount raised</th>
       <th>Target amount</th>
       <th>Sector</th>
       <th>Country</th>
@@ -22,7 +23,8 @@
         <td><%= campaign.name %></td>
         <td><%= campaign.image %></td>
         <td><%= campaign.percent_raised %>%</td>
-        <td><%= campaign.target_amount %></td>
+        <td>£<%= campaign.amount_raised %></td>
+        <td>£<%= campaign.target_amount %></td>
         <td><%= campaign.sector %></td>
         <td><%= campaign.country %></td>
         <td><%= campaign.invest_multiple %></td>
