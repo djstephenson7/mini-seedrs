@@ -19,19 +19,7 @@ RSpec.describe 'campaigns/edit', type: :view do
     render
 
     assert_select 'form[action=?][method=?]', campaign_path(@campaign), 'post' do
-      assert_select 'input[name=?]', 'campaign[name]'
-
-      assert_select 'input[name=?]', 'campaign[image]'
-
-      assert_select 'input[name=?]', 'campaign[percent_raised]'
-
-      assert_select 'input[name=?]', 'campaign[target_amount]'
-
-      assert_select 'input[name=?]', 'campaign[sector]'
-
-      assert_select 'input[name=?]', 'campaign[country]'
-
-      assert_select 'input[name=?]', 'campaign[invest_multiple]'
+      assert_select 'input[name=?]', 'campaign[amount_raised]'
     end
   end
 end
