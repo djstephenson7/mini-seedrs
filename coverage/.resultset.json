@@ -753,6 +753,8 @@
         null,
         null,
         null,
+        null,
+        null,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/views/campaigns/new.html.erb_spec.rb": [
@@ -814,26 +816,19 @@
         null,
         1,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         null,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/db/seeds.rb": [
         null,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
         1,
         null,
         null,
@@ -987,6 +982,7 @@
         null,
         null,
         1,
+        null,
         null,
         null,
         null,
@@ -995,6 +991,6 @@
         null
       ]
     },
-    "timestamp": 1547116769
+    "timestamp": 1547201859
   }
 }

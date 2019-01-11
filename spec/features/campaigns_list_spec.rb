@@ -5,6 +5,6 @@ require 'rails_helper'
 describe 'the list of campaigns page', type: :feature do
   it 'should display the test campaign' do
     visit '/'
-    expect(page).to have_content('Some campaign')
+    expect(page).to have_content('The GoCarShare Team')
   end
 end
