@@ -34,11 +34,7 @@
         null,
         null,
         1,
-        10,
-        null,
-        null,
-        1,
-        2,
+        8,
         null,
         null,
         null,
@@ -91,39 +87,17 @@
         null,
         null,
         null,
-        1,
-        1,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
         null,
         1,
         1,
         1,
         0,
-        0,
         null,
         null,
         1,
         1,
         1,
         1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        0,
         null,
         null,
         null,
@@ -570,47 +544,6 @@
         null,
         null
       ],
-      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/helpers/campaigns_helper_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/models/campaign_spec.rb": [
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/models/campaign.rb": [
-        null,
-        null,
-        1,
-        null
-      ],
-      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/models/application_record.rb": [
-        null,
-        null,
-        1,
-        1,
-        null
-      ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/models/campaigns_spec.rb": [
         null,
         null,
@@ -630,6 +563,19 @@
         1,
         1,
         null,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/models/campaign.rb": [
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/app/models/application_record.rb": [
+        null,
+        null,
+        1,
+        1,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/seedrs-test-run/seedrs-api/spec/requests/campaigns_spec.rb": [
@@ -979,6 +925,6 @@
         null
       ]
     },
-    "timestamp": 1547203901
+    "timestamp": 1547206698
   }
 }

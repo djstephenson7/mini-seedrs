@@ -33,10 +33,6 @@ RSpec.describe CampaignsController, type: :controller do
     { name: 'Some campaign', image: 'some image', percent_raised: 50, target_amount: 100, sector: 'Charity', country: 'UK', invest_multiple: 5 }
   end
 
-  let(:invalid_attributes) do
-    skip('Add a hash of attributes invalid for your model')
-  end
-
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
   # CampaignsController. Be sure to keep this updated too.
@@ -86,40 +82,18 @@ RSpec.describe CampaignsController, type: :controller do
         expect(response).to redirect_to(Campaign.last)
       end
     end
-
-    context 'with invalid params' do
-      it "returns a success response (i.e. to display the 'new' template)" do
-        post :create, params: { campaign: invalid_attributes }, session: valid_session
-        expect(response).to be_successful
-      end
-    end
   end
 
   describe 'PUT #update' do
     context 'with valid params' do
       let(:new_attributes) do
-        skip('Add a hash of attributes valid for your model')
-      end
-
-      it 'updates the requested campaign' do
-        campaign = Campaign.create! valid_attributes
-        put :update, params: { id: campaign.to_param, campaign: new_attributes }, session: valid_session
-        campaign.reload
-        skip('Add assertions for updated state')
+        { name: 'Some campaign', image: 'some image', percent_raised: 50, target_amount: 200, sector: 'Charity', country: 'UK', invest_multiple: 5 }
       end
 
       it 'redirects to the campaign' do
         campaign = Campaign.create! valid_attributes
         put :update, params: { id: campaign.to_param, campaign: valid_attributes }, session: valid_session
         expect(response).to redirect_to(campaign)
-      end
-    end
-
-    context 'with invalid params' do
-      it "returns a success response (i.e. to display the 'edit' template)" do
-        campaign = Campaign.create! valid_attributes
-        put :update, params: { id: campaign.to_param, campaign: invalid_attributes }, session: valid_session
-        expect(response).to be_successful
       end
     end
   end
